@@ -1,4 +1,4 @@
-## Descripción del proyecto
+#Descripción del proyecto
 Trabajas para la tienda online Ice que vende videojuegos por todo el mundo. Las reseñas de usuarios y expertos, los géneros, las plataformas (por ejemplo, Xbox o PlayStation) y los datos históricos sobre las ventas de juegos están disponibles en fuentes abiertas. Tienes que identificar patrones que determinen si un juego tiene éxito o no. Esto te permitirá detectar proyectos prometedores y planificar campañas publicitarias.
 
 Delante de ti hay datos que se remontan a 2016. Imaginemos que es diciembre de 2016 y estás planeando una campaña para 2017.
@@ -14,7 +14,7 @@ Ruta de archivo:
 
 /datasets/games.csv . Descarga el dataset
 
-Paso 2. Prepara los datos
+##Paso 2. Prepara los datos
 
 Reemplaza los nombres de las columnas (ponlos en minúsculas).
 Convierte los datos en los tipos necesarios.
@@ -24,7 +24,8 @@ Explica por qué rellenaste los valores ausentes como lo hiciste o por qué deci
 ¿Por qué crees que los valores están ausentes? Brinda explicaciones posibles.
 Presta atención a la abreviatura TBD: significa "to be determined" (a determinar). Especifica cómo piensas manejar estos casos.
 Calcula las ventas totales (la suma de las ventas en todas las regiones) para cada juego y coloca estos valores en una columna separada.
-Paso 3. Analiza los datos
+
+##Paso 3. Analiza los datos
 
 Mira cuántos juegos fueron lanzados en diferentes años. ¿Son significativos los datos de cada período?
 Observa cómo varían las ventas de una plataforma a otra. Elige las plataformas con las mayores ventas totales y construye una distribución basada en los datos de cada año. Busca las plataformas que solían ser populares pero que ahora no tienen ventas. ¿Cuánto tardan generalmente las nuevas plataformas en aparecer y las antiguas en desaparecer?
@@ -35,14 +36,16 @@ Crea un diagrama de caja para las ventas globales de todos los juegos, desglosad
 Mira cómo las reseñas de usuarios y profesionales afectan las ventas de una plataforma popular (tu elección). Crea un gráfico de dispersión y calcula la correlación entre las reseñas y las ventas. Saca conclusiones.
 Teniendo en cuenta tus conclusiones compara las ventas de los mismos juegos en otras plataformas.
 Echa un vistazo a la distribución general de los juegos por género. ¿Qué se puede decir de los géneros más rentables? ¿Puedes generalizar acerca de los géneros con ventas altas y bajas?
-Paso 4. Crea un perfil de usuario para cada región
+
+##Paso 4. Crea un perfil de usuario para cada región
 
 Para cada región (NA, UE, JP) determina:
 
 Las cinco plataformas principales. Describe las variaciones en sus cuotas de mercado de una región a otra.
 Los cinco géneros principales. Explica la diferencia.
 Si las clasificaciones de ESRB afectan a las ventas en regiones individuales.
-Paso 5. Prueba las siguientes hipótesis:
+
+##Paso 5. Prueba las siguientes hipótesis:
 
 — Las calificaciones promedio de los usuarios para las plataformas Xbox One y PC son las mismas.
 
@@ -56,7 +59,7 @@ Explica:
 
 — Qué criterio utilizaste para probar las hipótesis y por qué.
 
-Paso 6. Escribe una conclusión general
+##Paso 6. Escribe una conclusión general
 
 Formato: Completa la tarea en Jupyter Notebook. Inserta el código de programación en las celdas code y las explicaciones de texto en las celdas markdown. Aplica formato y agrega encabezados.
 
@@ -85,7 +88,7 @@ Descripción de datos
 
 Es posible que los datos de 2016 estén incompletos.
 
-¿Cómo será evaluado mi proyecto?
+##¿Cómo será evaluado mi proyecto?
 Lee atentamente estos criterios de evaluación de proyectos antes de empezar a trabajar.
 
 Esto es lo que buscan los revisores de proyecto cuando evalúan tu proyecto:
